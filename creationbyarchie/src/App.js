@@ -1,18 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-   <b> Archie</b>
-            <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
-            magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      </header>
-           
-    </div>
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Testimonials />
+      <Contact />
+    </main>
   );
 }
-
-export default App;
