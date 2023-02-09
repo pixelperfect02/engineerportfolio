@@ -6,12 +6,19 @@ import { testimonials } from "../data";
 
 export default function Testimonials() {
   return (
-    <section id="testimonials">
+    <section id="testimonials" className="text-gray-400 bg-orange-100 body-font">
       <div className="container px-5 py-10 mx-auto text-center">
         {/* <UsersIcon className="w-10 inline-block mb-4" /> */}
-        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
+        <br></br>
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
           Client Testimonials
-        </h1>
+          </h1>
+        <div class="divide-y-2 divide-black">    
+  <div></div>
+  <div></div>
+  </div>
+  <br></br>
+ 
         <div className="flex flex-wrap m-4">
           {testimonials.map((testimonial) => (
             <div className="p-4 md:w-1/2 w-full">

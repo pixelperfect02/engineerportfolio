@@ -1,19 +1,19 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Security Question Evaluator",
+    subtitle: "SA Health",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+      ".........",
+    image: "./project-2.gif",
     link: "https://reactbootcamp.com",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Cosy Up",
+    subtitle: "Shopify",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Description",
+    image: "./project-1.gif",
+    link: "https://cosyup.au",
   },
   {
     title: "DevChat",
@@ -36,18 +36,32 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      "Archie was amazing.",
+    image: "./Ria.jpeg",
+    name: "Emma Sherratt",
+    company: "Rent the roo",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      "She made a good website",
     image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+    name: "Ria Verma",
+    company: "Cosy Up",
   },
+  {
+    quote:
+      "Archie was amazing.",
+    image: "./Ria.jpeg",
+    name: "Emma Sherratt",
+    company: "Rent the roo",
+  },
+  {
+    quote:
+      "Archie was amazing.",
+    image: "./Ria.jpeg",
+    name: "Emma Sherratt",
+    company: "Rent the roo",
+  }
 ];
 
 export const skills = [
@@ -55,6 +69,12 @@ export const skills = [
   "React",
   "Next.js",
   "Node",
-  "GraphQL",
+  "Ruby on Rails",
   "Material UI",
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Node",
+  "Ruby on Rails",
+  "Material UI"
 ];
