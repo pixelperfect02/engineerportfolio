@@ -7,7 +7,7 @@ export default function Welcome() {
     <img
       className="object-contain h-100 w-100 object-center rounded"
       alt="hero"
-      src="./Welcome.gif"
+      src="./welcome.gif"
     />
     </a>
 
