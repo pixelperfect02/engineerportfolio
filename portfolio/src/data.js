@@ -33,6 +33,17 @@ export const projects = [
   },
 ];
 
+export const about = {
+  /* Your Social Media Link */
+  github: "https://github.com/harikanani",
+  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
+  gmail: "hkanani191@gmail.com",
+  gitlab: "https://gitlab.com/harikanani",
+  facebook: "https://www.facebook.com/harikrishan.kanani/",
+  twitter: "https://twitter.com/Harikrushn9",
+  instagram: "https://www.instagram.com/hari_kanani_/",
+};
+
 export const testimonials = [
   {
     quote:

@@ -4,20 +4,23 @@ import { skills } from "../data";
 
 export default function Skills() {
   return (
-    <section id="skills" className="text-gray-400 bg-orange-100 body-font">
+    <section id="skills" className="text-gray-400 bg-black body-font">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           {/* <ChipIcon className="w-10 inline-block mb-4" /> */}
           <br></br>
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
+          <br></br>
+          <br></br>
+          <br></br>
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
-          <div class="divide-y-2 divide-black">
+          <div class="divide-y-2 divide-white">
   <div></div>
   <div></div>
   </div>
   <br></br>
-  <p className="mb-8 leading-relaxed navbar text-justify text-rose-400">
+  <p className="mb-8 leading-relaxed navbar text-justify text-teal-300">
           Knowledge gained from my passion for computer software as well as my field of study has equipped me with a deep understanding in the various computer fields and areas helping me gain a broader theoretical as well as practical knowledge in the field. 
           In addition to this, it has made me proficient in numerous programming languages and taught me how to quickly learn any new language through practice.
           Through developing these skills and knowledge sets I have developed outstanding communication skills, interpersonal abilities, excellent collaboration skills and a positive ‘can do’ attitude which has been reflected throughout my work and volunteer experience. 
