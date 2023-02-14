@@ -1,4 +1,4 @@
-// src/home/Welcome.js
+// src/components/Welcome.js
 import React from "react";
 
 export default function Welcome() {

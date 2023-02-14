@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from "react";
-import Welcome from "./home/Welcome";
+import Welcome from "./components/Welcome";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
