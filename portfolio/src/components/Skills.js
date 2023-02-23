@@ -21,9 +21,6 @@ export default function Skills() {
   <div></div>
   <div></div>
   </div>
-  <br></br>
-  <p className="mb-8 leading-relaxed navbar text-justify text-teal-300">
-          </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
