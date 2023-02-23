@@ -23,10 +23,6 @@ export default function Skills() {
   </div>
   <br></br>
   <p className="mb-8 leading-relaxed navbar text-justify text-teal-300">
-          Knowledge gained from my passion for computer software as well as my field of study has equipped me with a deep understanding in the various computer fields and areas helping me gain a broader theoretical as well as practical knowledge in the field. 
-          In addition to this, it has made me proficient in numerous programming languages and taught me how to quickly learn any new language through practice.
-          Through developing these skills and knowledge sets I have developed outstanding communication skills, interpersonal abilities, excellent collaboration skills and a positive ‘can do’ attitude which has been reflected throughout my work and volunteer experience. 
-          With a motivation and passion for learning and continuous improvement, I am now seeking opportunities to contribute these to an organisation that shares my vision.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

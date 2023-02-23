@@ -107,13 +107,11 @@ export default function Contact() {
 
 
   <br></br>
-          <p className="mb-8 leading-relaxed navbar text-justify text-teal-300">
-          Knowledge gained from my passion for computer software as well as my field of study has equipped me with a deep understanding in the various computer fields and areas helping me gain a broader theoretical as well as practical knowledge in the field. 
-        
+          <p className="mb-8 leading-relaxed navbar text-center text-teal-300">
           </p>
 
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-black navbar-brand">
+            <label htmlFor="name" className="leading-7 text-sm text-white navbar-brand">
               Name
             </label>
             <input
@@ -125,7 +123,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-black navbar-brand ">
+            <label htmlFor="email" className="leading-7 text-sm text-white navbar-brand ">
               Email
             </label>
             <input
@@ -139,7 +137,7 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-black navbar-brand ">
+              className="leading-7 text-sm text-white navbar-brand ">
               Message
             </label>
             <textarea

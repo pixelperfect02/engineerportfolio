@@ -21,8 +21,7 @@ export default function Projects() {
   </div>
   <br></br>
           <p className="mb-8 navbar leading-relaxed text-justify text-teal-300">
-          Knowledge gained from my passion for computer software as well as my field of study has equipped me with a deep understanding in the various computer fields and areas helping me gain a broader theoretical as well as practical knowledge in the field. 
-          </p>
+          I have developed my abilities through participating in a variety of projects at the university and at my past jobs. In addition,  I have also contributed to open source platforms like Pixar and worked on several personal projects to develop my coding skills. Details of some of my previous work can be seen below with the link of a few deployed business applications like Cosy Up.  </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (

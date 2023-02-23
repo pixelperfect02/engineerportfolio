@@ -15,9 +15,8 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 navbar leading-relaxed text-justify text-teal-300">
-          Knowledge gained from my passion for computer software as well as my field of study has equipped me with a deep understanding in the various computer. 
-          In addition to this, it has made me proficient in numerous programming languages and taught me how to quickly learn any new language through practice.
-          In addition to this, it has made me proficient in numerous programming languages and taught me archie archie abczg.
+          Knowledge gained from my passion for computer software as well as my field of study has equipped me with a deep understanding in the various computer fields and areas helping me gain a broader theoretical as well as practical knowledge in the field. In addition to this, it has made me proficient in numerous programming languages and taught me how to quickly learn any new language through practice.
+With a motivation and passion for learning and continuous improvement, I am now seeking opportunities to contribute these to an organisation that shares my vision.
           </p>
         <div className="social-media-div">
         <div className ="flex space-x-5 ...">
