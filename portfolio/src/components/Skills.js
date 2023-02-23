@@ -4,6 +4,7 @@ import { skills } from "../data";
 
 export default function Skills() {
   return (
+    
     <section id="skills" className="text-gray-400 bg-black body-font">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
@@ -12,6 +13,7 @@ export default function Skills() {
           <br></br>
           <br></br>
           <br></br>
+
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
@@ -40,6 +42,8 @@ export default function Skills() {
           ))}
         </div>
       </div>
+      
     </section>
+    
   );
 }

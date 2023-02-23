@@ -1,35 +1,32 @@
 export const projects = [
   {
     title: "Security Question Evaluator",
-    subtitle: "SA Health",
+    subtitle: "Ruby on Rails",
     description:
-      ".........",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Security Question Evaluator was developed to export data from online wikipedia pages when wiki url is added in the website form.",
+    image: "./project-1.gif",
   },
   {
     title: "Cosy Up",
     subtitle: "Shopify",
     description:
-      "Description",
-    image: "./project-1.gif",
+      "Shopping Website created for an Austalian Coffee brand called Cosy Up to promote and sell it around the world.",
+    image: "./project-2.gif",
     link: "https://cosyup.au",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Application Form",
+    subtitle: "MetaWidget",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Application form developed for potential employees to apply for a job at an organisation usinf metawidget which saves user information at runtime.",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "GUI displaying live GPS data",
+    subtitle: "GUI Java",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Gathering live GPS data from a pool of device, displaying the results of processing that data in a Java GUI using the Sodium and Swidget libraries.",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
   },
 ];
 
@@ -74,6 +71,9 @@ export const testimonials = [
     company: "Rent the roo",
   }
 ];
+
+
+
 
 export const skills = [
   "JavaScript",

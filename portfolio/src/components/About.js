@@ -8,9 +8,7 @@ export default function About() {
     <section id="about" className="text-gray-400 bg-black body-font">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <br></br>
-          <br></br>
-          <br></br>
+         
           <h1 className="title-font navbar-brand sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hello, I'm Archie.
             <br className="hidden lg:inline-block" /><br></br>I love to build amazing
@@ -85,12 +83,12 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex navbar-brand text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-teal-300 rounded text-lg">
+              className="inline-flex navbar-brand text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 navbar-brand inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-teal-300 hover:text-white rounded text-lg">
+              className="ml-4 navbar-brand inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 hover:text-white rounded text-lg">
               See My Past Work
             </a>
 
@@ -107,7 +105,6 @@ export default function About() {
           />
         </div>
       </div>
-      
            <br></br>
            <br></br>
           
