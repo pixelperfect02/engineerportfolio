@@ -1,6 +1,7 @@
 // src/components/Contact.js
 
 import React from "react";
+import { contact } from "../data";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -86,12 +87,29 @@ export default function Contact() {
   <div></div>
   <div></div>
   </div>
+
+  <div className="flex flex-wrap m-4">
+  {contact.map((contact) => ( 
+
+   
+    <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+     <div className="inline-flex items-center">
+     <img
+       alt="contact"
+       src={contact.image}
+       className="object-center w-15 rounded-full flex-shrink-0 object-cover "
+     />
+     </div>
+  
+     </div>
+  ))}
+</div>
+
+
   <br></br>
           <p className="mb-8 leading-relaxed navbar text-justify text-teal-300">
           Knowledge gained from my passion for computer software as well as my field of study has equipped me with a deep understanding in the various computer fields and areas helping me gain a broader theoretical as well as practical knowledge in the field. 
-          In addition to this, it has made me proficient in numerous programming languages and taught me how to quickly learn any new language through practice.
-          Through developing these skills and knowledge sets I have developed outstanding communication skills, interpersonal abilities, excellent collaboration skills and a positive ‘can do’ attitude which has been reflected throughout my work and volunteer experience. 
-          With a motivation and passion for learning and continuous improvement, I am now seeking opportunities to contribute these to an organisation that shares my vision.
+        
           </p>
 
           <div className="relative mb-4">

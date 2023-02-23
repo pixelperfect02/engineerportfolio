@@ -7,7 +7,7 @@ export default function Navbar() {
     <header className="bg-black md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font text-white mb-4 md:mb-0">
-          <a href="./welcome" className="text-rose-300 navbar-brand ml-3 font-serif text-xl hover:text-yellow-400">
+          <a href="#about" className="text-rose-300 navbar-brand ml-3 font-serif text-xl hover:text-yellow-400">
           <img
             className="object-contain h-20 w-30 object-center rounded"
             alt="hero"

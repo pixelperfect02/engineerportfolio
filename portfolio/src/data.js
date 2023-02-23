@@ -32,43 +32,41 @@ export const projects = [
 
 export const about = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/hari_kanani_/",
+  github: "https://github.com/a1745070",
+  linkedin: "https://www.linkedin.com/in/archie-verma-4ab519213/",
+  gmail: "archieverma0210@gmail.com",
+  outlook: "a1745070@student.adelaide.edu.au",
 };
+
 
 export const testimonials = [
   {
     quote:
-      "Archie was amazing.",
-    image: "./Ria.jpeg",
+      "Archie Verma has worked at Rent The Roo where she Transferred large amounts of data using salesforce data loader and data import wizard, and associated in developing and structuring data storage and processes within Salesforce.",
+    image: "./Emma.jpeg",
     name: "Emma Sherratt",
     company: "Rent the roo",
   },
   {
     quote:
-      "She made a good website",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
+      "Archie has created a great website for my business cosy up, standing upto my expectations and presenting exactly what I had in mind for my business, it was my pleasure working with Archie.",
+    image: "./Ria.jpeg",
     name: "Ria Verma",
     company: "Cosy Up",
   },
   {
     quote:
-      "Archie was amazing.",
-    image: "./Ria.jpeg",
-    name: "Emma Sherratt",
-    company: "Rent the roo",
+      "Excellent news - Big congratulations to the group, and very proud of you. It's also my pleasure working with and supervising you. All the very best for the future!!!",
+    image: "./Asangi.jpeg",
+    name: "Asangi Jayatilaka",
+    company: "SA Health",
   },
   {
     quote:
-      "Archie was amazing.",
-    image: "./Ria.jpeg",
-    name: "Emma Sherratt",
-    company: "Rent the roo",
+      "Big congrats on the great prize that you and your group have won, Archie. Very well deserved. It's been a wonderful experience for me to work with all of you. Wish you all the best with your next endeavours.",
+    image: "./Triet.jpeg",
+    name: "Triet Li",
+    company: "The University of Adelaide",
   }
 ];
 
@@ -96,4 +94,11 @@ export const skills = [
   "Word Press",
   "JQuery",
   "Shopify"
+];
+
+export const contact = [
+  {
+    image: "./photo.jpeg",
+    
+  },
 ];
