@@ -108,6 +108,7 @@ export default function Contact() {
 
   <br></br>
           <p className="mb-8 leading-relaxed navbar text-center text-teal-300">
+
           </p>
 
           <div className="relative mb-4">

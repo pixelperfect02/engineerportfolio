@@ -18,14 +18,14 @@ export const projects = [
     title: "Application Form",
     subtitle: "MetaWidget",
     description:
-      "Application form developed for potential employees to apply for a job at an organisation usinf metawidget which saves user information at runtime.",
+      "Application form developed for potential employees to apply for a job at an organisation using metawidget which saves user information at runtime.",
     image: "./project-3.gif",
   },
   {
     title: "GUI displaying live GPS data",
     subtitle: "GUI Java",
     description:
-      "Gathering live GPS data from a pool of device, displaying the results of processing that data in a Java GUI using the Sodium and Swidget libraries.",
+      "Gathering live GPS data from a pool of devices, displaying the results of processing that data in a Java GUI using the Sodium and Swidget libraries.",
     image: "./project-4.gif",
   },
 ];
@@ -42,21 +42,21 @@ export const about = {
 export const testimonials = [
   {
     quote:
-      "Archie Verma has worked at Rent The Roo where she Transferred large amounts of data using salesforce data loader and data import wizard, and associated in developing and structuring data storage and processes within Salesforce.",
+      "Archie Verma worked at Rent The Roo where she transferred large amounts of data using salesforce, data loader and data import wizard, and associated in developing and structuring data storage and processes within Salesforce.",
     image: "./Emma.jpeg",
     name: "Emma Sherratt",
     company: "Rent the roo",
   },
   {
     quote:
-      "Archie has created a great website for my business cosy up, standing upto my expectations and presenting exactly what I had in mind for my business, it was my pleasure working with Archie.",
+      "Archie has created a great website for my business Cosy Up, standing upto my expectations and presenting exactly what I had in mind for my business, it was my pleasure working with Archie.",
     image: "./Ria.jpeg",
     name: "Ria Verma",
     company: "Cosy Up",
   },
   {
     quote:
-      "Excellent news - Big congratulations to the group, and very proud of you. It's also my pleasure working with and supervising you. All the very best for the future!!!",
+      "Excellent news on the award- Big congratulations to the group, and very proud of you. It's also my pleasure working with and supervising you. All the very best for the future!!!",
     image: "./Asangi.jpeg",
     name: "Asangi Jayatilaka",
     company: "SA Health",
@@ -85,11 +85,11 @@ export const skills = [
   "Node JS",
   "SVN",
   "Material UI",
-  "Heroki",
+  "Heroku",
   "Vercel",
   "MetaWidget",
-  "HTML5",
-  "CSS3",
+  "HTML",
+  "CSS",
   "NPM",
   "Word Press",
   "JQuery",
