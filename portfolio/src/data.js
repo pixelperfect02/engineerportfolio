@@ -18,7 +18,7 @@ export const projects = [
     title: "Application Form",
     subtitle: "MetaWidget",
     description:
-      "Application form developed for potential employees to apply for a job at an organisation using metawidget which saves user information at runtime.",
+      "Application form developed for potential employees to apply for a job at an organisation using metawidget which is a smart user interface that populates itself at runtime or statically.",
     image: "./project-3.gif",
   },
   {
