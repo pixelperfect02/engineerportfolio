@@ -68,7 +68,7 @@ export default function Contact() {
               <a
               href="#contact"
               className="mr-5 text-teal-300 hover:text-teal-300">
-              Available on Request
+              +61466815945
             </a>
             </div>
           </div>
