@@ -96,8 +96,7 @@ export const skills = [
   "HTML",
   "CSS",
   "NPM",
-  "Javascript",
-  "JQuery"
+  "Javascript"
 ];
 
 export const contact = [
