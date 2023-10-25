@@ -11,8 +11,8 @@ export default function About() {
          
           <h1 className="title-font navbar-brand sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hello, I'm Archie.
-            <br className="hidden lg:inline-block" /><br></br>I love to build amazing
-            apps.
+            <br className="hidden lg:inline-block" /><br></br>I love to design and build amazing
+            applications.
           </h1>
           <p className="mb-8 navbar leading-relaxed text-justify text-teal-300">
           Knowledge gained from my passion for computer software as well as my field of study has equipped me with a deep understanding in the various computer fields and areas helping me gain a broader theoretical as well as practical knowledge in the field. In addition to this, it has made me proficient in numerous programming languages and taught me how to quickly learn any new language through practice.
@@ -87,6 +87,7 @@ With a motivation and passion for learning and continuous improvement, I am now 
             alt="hero"
             src="./a.gif"
           />
+          
         </div>
       </div>
            <br></br>

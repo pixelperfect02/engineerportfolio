@@ -38,7 +38,7 @@ export default function Navbar() {
           />
           </a>
         
-          <a href= "https://drive.google.com/file/d/1hPinqxAdgzKyJoRYk8kRCWpjfntpYG5n/view?usp=sharing" className="text-white text-xl mr-5 navbar-brand font-serif hover:text-yellow-400">
+          <a href= "https://drive.google.com/file/d/18dK7bd9Dm2tsGcHz0ukzT6f7nSgQWsIf/view?usp=sharing" className="text-white text-xl mr-5 navbar-brand font-serif hover:text-yellow-400">
           <img
             className="object-contain h-22 w-40 object-center rounded"
             alt="hero"

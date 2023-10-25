@@ -5,6 +5,7 @@ export const projects = [
     description:
       "Security Question Evaluator was developed to export data from online wikipedia pages when wiki url is added in the website form.",
     image: "./project-1.gif",
+    link: "https://github.com/a1745070/g3-serp2022"
   },
   {
     title: "Cosy Up",
@@ -12,7 +13,7 @@ export const projects = [
     description:
       "Shopping Website created for an Austalian Coffee brand called Cosy Up to promote and sell it around the world.",
     image: "./project-2.gif",
-    link: "https://cosyup.au",
+    link: "https://cosyup.com.au",
   },
   {
     title: "Application Form",
@@ -20,6 +21,7 @@ export const projects = [
     description:
       "Application form developed for potential employees to apply for a job at an organisation using metawidget which is a smart user interface that populates itself at runtime or statically.",
     image: "./project-3.gif",
+    link: "https://github.com/a1745070/metawidget_application-/blob/main/webapplication.html"
   },
   {
     title: "GUI displaying live GPS data",
@@ -27,6 +29,7 @@ export const projects = [
     description:
       "Gathering live GPS data from a pool of devices, displaying the results of processing that data in a Java GUI using the Sodium and Swidget libraries.",
     image: "./project-4.gif",
+    link: "https://github.com/a1745070/edc_assignment3"
   },
 ];
 
@@ -51,7 +54,7 @@ export const testimonials = [
     quote:
       "Archie has created a great website for my business Cosy Up, standing upto my expectations and presenting exactly what I had in mind for my business, it was my pleasure working with Archie.",
     image: "./Ria.jpeg",
-    name: "Ria Verma",
+    name: "Ria",
     company: "Cosy Up",
   },
   {
@@ -74,15 +77,17 @@ export const testimonials = [
 
 
 export const skills = [
-  "JavaScript",
+  "Word Press(CMS)",
+  "Figma",
   "React JS",
   "Java",
-  "JQuery",
+  "XSS",
+  "PHP",
   "Ruby on Rails MVC",
   "C/C++",
   "SQL",
   "Python",
-  "Node JS",
+  "Node JS/Vue JS",
   "SVN",
   "Material UI",
   "Heroku",
@@ -91,9 +96,8 @@ export const skills = [
   "HTML",
   "CSS",
   "NPM",
-  "Word Press",
-  "JQuery",
-  "Shopify"
+  "Javascript",
+  "JQuery"
 ];
 
 export const contact = [
