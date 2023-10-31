@@ -35,7 +35,7 @@ export const projects = [
 
 export const about = {
   /* Your Social Media Link */
-  github: "https://github.com/a1745070",
+  github: "https://github.com/pixelperfect02",
   linkedin: "https://www.linkedin.com/in/archie-verma-4ab519213/",
   gmail: "archieverma0210@gmail.com",
   outlook: "a1745070@student.adelaide.edu.au",
