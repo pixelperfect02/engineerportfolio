@@ -1,15 +1,14 @@
-/* Reset default styles */
-* {
-  margin: 0;
-  background-color: white;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 /* Set a clean font family */
 body {
+
   font-family: 'Poppins', sans-serif;
+  background-color: white;
 }
+/* Reset default styles */
+
+
 
 /* Background and structure of the navbar */
 header {
@@ -159,6 +158,11 @@ nav {
 }
 
 
+
+
+
+
+
 /* Resume Container */
 
 
@@ -174,7 +178,7 @@ nav {
 
 /* Resume Image with 3D Effect */
 .resume-image {
-  width: 100%;
+  width: 68%;
   height: 100%;
   object-fit: contain; /* Ensures the image is scaled properly without distortion */
   border-radius: 10px; /* Optional rounded corners */
@@ -195,7 +199,12 @@ nav {
 
 
 
-/* src/styles/custom.css */
+
+
+
+
+
+
 
 /* Center the contact form */
 #contact {
@@ -206,31 +215,23 @@ nav {
   background-color: #ffffff;
 }
 
-/* Style for the form container */
-#contact .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-/* Form box styling */
+/* Form container and styling */
 form {
-  width: 70%; /* Wider form */
-  padding: 2rem;
+  width: 68%; 
+  padding: 5rem;
   background-color: #ffffff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  transform: perspective(1000px) rotateY(0deg); /* 3D effect */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) ;
+  border-radius: 15px;
+  margin: 10rem auto 0;
+  transform: perspective(1000px) rotateY(0deg);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 form:hover {
-  transform: perspective(1000px) rotateY(5deg); /* Slight tilt effect on hover */
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  transform: perspective(1000px) rotateY(5deg);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
-/* Heading styling */
 form h2 {
   font-size: 2.5rem;
   color: #333333;
@@ -238,7 +239,7 @@ form h2 {
   margin-bottom: 1.5rem;
 }
 
-/* Input and textarea styling */
+/* Input, textarea, and button styling */
 input, textarea {
   width: 100%;
   padding: 1rem;
@@ -254,12 +255,11 @@ input, textarea {
 input:focus, textarea:focus {
   border-color: #DDC6A4;
   outline: none;
-  box-shadow: 0 0 5px#DDC6A4;
+  box-shadow: 0 0 5px #DDC6A4;
 }
 
-/* Submit button styling */
 button[type="submit"] {
-  width: 100%;
+  width: 30%;
   padding: 1rem;
   background-color: #DDC6A4;
   color: #ffffff;
@@ -268,12 +268,23 @@ button[type="submit"] {
   cursor: pointer;
   font-size: 1.1rem;
   transition: background-color 0.3s ease;
+  display: block;  /* Ensures block-level behavior */
+  margin: 1rem auto; /* Centers horizontally */
+  text-align: center; /* Ensures text stays centered */
 }
+
 
 button[type="submit"]:hover {
-  background-color: #DDC6A4;
+  background-color: #d0a57e;
 }
 
+/* Success message styling */
+p {
+  font-size: 1.25rem;
+  color: #4CAF50;
+  text-align: center;
+  font-weight: bold;
+}
 
 
 

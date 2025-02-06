@@ -1,6 +1,21 @@
 .App {
   text-align: center;
 }
+/* Ensure all pages have a white background */
+html, body {
+  background-color: white !important;
+  color: #333; /* Ensure text is readable */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Apply white background to all sections */
+section, div, main {
+  background-color: white !important;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +51,4 @@
     transform: rotate(360deg);
   }
 }
+
