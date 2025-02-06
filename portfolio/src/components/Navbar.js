@@ -27,7 +27,7 @@ export default function Navbar() {
 
         {/* Social Media Links */}
         <div className="flex space-x-5">
-          <a href="https://www.linkedin.com" className="icon-button" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/archie-verma" className="icon-button" target="_blank" rel="noopener noreferrer">
             <svg
               className="bg-white h-8 w-8 rounded-lg"
               xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ export default function Navbar() {
             </svg>
           </a>
 
-          <a href="https://github.com" className="icon-button" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/pixelperfect02 " className="icon-button" target="_blank" rel="noopener noreferrer">
             <svg
               className="bg-white h-8 w-8 rounded-lg"
               xmlns="http://www.w3.org/2000/svg"
