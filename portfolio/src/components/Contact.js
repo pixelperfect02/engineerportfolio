@@ -5,6 +5,8 @@ function ContactForm() {
   const [state, handleSubmit] = useForm("xeoezggw");
 
   return (
+
+    <section id="contact">
     <div>
       <form onSubmit={handleSubmit}>
         {state.succeeded && <p>Message Sent!</p>}
@@ -41,6 +43,7 @@ function ContactForm() {
         </button>
       </form>
     </div>
+    </section>
   );
 }
 

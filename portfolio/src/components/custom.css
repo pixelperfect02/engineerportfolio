@@ -211,18 +211,17 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 62vh;
   background-color: #ffffff;
 }
 
 /* Form container and styling */
 form {
-  width: 68%; 
+  width: 100%; 
   padding: 5rem;
   background-color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) ;
   border-radius: 15px;
-  margin: 10rem auto 0;
   transform: perspective(1000px) rotateY(0deg);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -272,8 +271,6 @@ button[type="submit"] {
   margin: 1rem auto; /* Centers horizontally */
   text-align: center; /* Ensures text stays centered */
 }
-
-
 button[type="submit"]:hover {
   background-color: #d0a57e;
 }
