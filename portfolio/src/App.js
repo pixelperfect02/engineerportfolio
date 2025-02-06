@@ -3,6 +3,7 @@ import './App.css';
 import React from "react";
 // import Welcome from "./home/Welcome";
 import About from "./components/About";
+import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -14,10 +15,13 @@ export default function App() {
     <main className="text-gray-400 bg-black body-font">
       <Navbar />
       <About />
-      <Projects />
+      <Resume />
+      <Contact /> 
+      {/* <Projects />
+     
       <Skills />
       <Testimonials />
-      <Contact />
+      <Contact /> */}
     </main>
   );
 }

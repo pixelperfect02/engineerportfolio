@@ -1,117 +1,277 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@400;500&display=swap");
-.navbar-brand {
-  font-family: "Playfair Display";
+/* Reset default styles */
+* {
+  margin: 0;
+  background-color: white;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a clean font family */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background and structure of the navbar */
+header {
+  background-color: #DDC6A4;
+  color: #706F6F;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow to add depth */
+}
+
+/* Container with space between items */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}
+
+/* Logo Styling */
+a img {
+  height: 60px; /* Icon size */
+  width: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+a img:hover {
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+/* Navigation Links */
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
   font-weight: 500;
-}
-.navbar{
-  font-family: "Times New Roman", "Times", "serif";
-  font-weight: 500;
-}
-
-
-
-.fontawesomesvg {
-  width: 1em;
-  height: 1em;
-  vertical-align: -.125em;
-  /* display: inline-block; */
+  color: #706F6F;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
-
-.social-media-div {
-  font-size: 2em;
+/* Hover effect for nav items */
+.nav-item:hover {
+  color: #CBB28E; /* Gold color for hover */
+  transform: translateY(-3px); /* Slight lift effect */
 }
 
-.icon-button i {
-  color: white;
-}
-.icon-button {
-  margin-bottom: 10px;
+/* Call-to-Action Button */
+.cta-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background-color: #706F6F;
+  padding: 12px 24px;
+  border-radius: 30px;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.icon-button i {
-  border-radius: 2.6rem;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.3rem;
-  height: 2.6rem;
-  line-height: 2.6rem;
-  margin: 0 5px;
+/* Hover effect for CTA button */
+.cta-btn:hover {
+  background-color: #CBB28E;
+  transform: translateY(-4px); /* Lift effect */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
+
+/* About Section */
+.about-section {
   position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align the content at the top */
+  overflow: hidden;
+  padding-top: 50px; /* Optional padding to give space from the top */
+}
+
+/* Centered Image of the Girl (3D Effect) */
+.girl-image-container {
+  position: relative;
+  width: 1400px; /* Make the image bigger */
+  height: 1400px; /* Adjust the height as needed */
+  margin-top: 2px;
+  margin-bottom: 30px; /* Space between image and text */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+/* Image Style */
+.girl-3d-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
+}
+
+/* Hover Effect for 3D Look */
+.girl-3d-image:hover {
+  transform: rotateY(10deg) rotateX(10deg);
+}
+
+/* Text Content */
+.text-content {
   text-align: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 2.6rem;
-  margin-bottom: 10px;
+  z-index: 2;
+  color: #706F6F;
 }
 
-.linkedin i {
-  background-color: #0e76a8;
-  transition: all 0.2s ease-in-out;
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #706F6F;
+  margin-bottom: 20px;
 }
 
-.linkedin i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #0e76a8;
+.sub-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #706F6F;
 }
 
-.github i {
-  background-color: #333;
-  transition: all 0.2s ease-in-out;
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  color: #706F6F;
 }
 
-.github i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #333;
+
+/* Resume Container */
+
+
+.resume-container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This makes the container fill the entire viewport height */
+  margin: 0;
+  perspective: 1500px; /* Adds depth to the 3D effect */
 }
 
-.gitlab i {
-  background-color: #ffcc52;
-  transition: all 0.2s ease-in-out;
+/* Resume Image with 3D Effect */
+.resume-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensures the image is scaled properly without distortion */
+  border-radius: 10px; /* Optional rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Adds depth with shadow */
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d; /* Keeps the 3D perspective */
 }
 
-.gitlab i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #333;
+/* Hover Effect for 3D Look */
+.resume-image:hover {
+  transform: rotateY(2deg) rotateX(2deg); /* Rotates the image on hover */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3); /* Enhances shadow on hover */
 }
 
-.google i {
-  background-color: #ea4335;
-  transition: all 0.2s ease-in-out;
+
+
+
+
+
+
+/* src/styles/custom.css */
+
+/* Center the contact form */
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
 }
 
-.google i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #ea4335;
+/* Style for the form container */
+#contact .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.twitter i {
-  background-color: #1da1f2;
-  transition: all 0.2s ease-in-out;
+/* Form box styling */
+form {
+  width: 70%; /* Wider form */
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transform: perspective(1000px) rotateY(0deg); /* 3D effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.twitter i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #1da1f2;
+form:hover {
+  transform: perspective(1000px) rotateY(5deg); /* Slight tilt effect on hover */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
 }
 
-.instagram i {
-  background-color: #e4405f;
-  transition: all 0.2s ease-in-out;
+/* Heading styling */
+form h2 {
+  font-size: 2.5rem;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
-.instagram i:hover {
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #e4405f;
+/* Input and textarea styling */
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333333;
+  transition: all 0.3s ease;
 }
 
-/* Media Query */
-@media (max-width: 768px) {
-  .social-media-div {
-    text-align: center;
-  }
+input:focus, textarea:focus {
+  border-color: #DDC6A4;
+  outline: none;
+  box-shadow: 0 0 5px#DDC6A4;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+  width: 100%;
+  padding: 1rem;
+  background-color: #DDC6A4;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #DDC6A4;
 }
 
 
