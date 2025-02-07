@@ -17,9 +17,9 @@ export default function Navbar() {
         {/* Navigation Links */}
         <nav className="flex space-x-10">
           <a href="#about" className="nav-item">About</a>
-          <a href="#projects" className="nav-item">Projects</a>
-          {/* <a href="#skills" className="nav-item">Skills</a> */}  
-            <a href="#resume" className="nav-item">Resume</a>
+          <a href="#skills" className="nav-item">Skills</a>  
+          <a href="#resume" className="nav-item">Resume</a>
+          <a href="#projects" className="nav-item">Projects</a>    
             <a href="#contact" className="nav-item">Contact</a>
         </nav>
        
