@@ -40,12 +40,41 @@ nav {
   display: flex;
 }
 
-/* Stack nav items vertically on small screens */
+/* Hide nav by default on small screens */
 @media (max-width: 768px) {
   nav {
-    display: none;
+    display: none !important;  /* Hide the entire nav element */
+  }
+
+  /* Make sure the logo remains visible */
+  .container a {
+    display: block !important;  /* Ensure logo remains visible */
+  }
+
+  /* Hide hamburger and other navigation-related items */
+  .hamburger, .nav-links {
+    display: none !important;
   }
 }
+
+/* For larger screens, reset and show nav */
+@media (min-width: 769px) {
+  nav {
+    display: flex !important;  /* Ensure nav is displayed normally on larger screens */
+    gap: 2rem;
+  }
+
+  /* Logo */
+  .container a {
+    display: block !important;  /* Keep logo visible */
+  }
+
+  /* Hamburger and nav items should be displayed normally on large screens */
+  .hamburger, .nav-links {
+    display: block !important;
+  }
+}
+
 .nav-item {
   font-family: 'Roboto', sans-serif;
   font-size: clamp(1rem, 1.2vw, 1.2rem);
