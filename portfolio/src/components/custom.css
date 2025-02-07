@@ -100,7 +100,8 @@ nav {
   align-items: center;
   justify-content: flex-start; /* Align the content at the top */
   overflow: hidden;
-  padding-top: 50px; /* Optional padding to give space from the top */
+  padding-top: 10px; 
+ 
 }
 
 /* Centered Image of the Girl (3D Effect) */
@@ -285,3 +286,30 @@ p {
 
 
 
+
+
+/* Projects Container (Same as Resume & About Image) */
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Matches Resume Container */
+  perspective: 1500px; /* Adds Depth */
+}
+
+/* 3D Flipbook Frame */
+.projects-3d-frame {
+  width: 68%;
+  height: 80vh;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Depth Shadow */
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+/* Hover Effect */
+.projects-3d-frame:hover {
+  transform: rotateY(2deg) rotateX(2deg);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
