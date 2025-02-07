@@ -16,12 +16,12 @@ export default function App() {
       <Navbar />
       <About />
       <Resume />
+      <Projects />
       <Contact /> 
-      {/* <Projects />
-     
+      {/*
       <Skills />
       <Testimonials />
-      <Contact /> */}
+     */}
     </main>
   );
 }
