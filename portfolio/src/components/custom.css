@@ -39,8 +39,19 @@ a img:hover {
 nav {
   display: flex;
   gap: 2rem;
+  flex-direction: row; 
 }
 
+/* Stack nav items vertically on small screens */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;  /* Stacks the items vertically */
+    gap: 2rem;  /* Adjust gap as needed */
+    align-items: center;  /* Center the items horizontally */
+    justify-content: center; 
+  }
+}
 .nav-item {
   font-family: 'Roboto', sans-serif;
   font-size: clamp(1rem, 1.2vw, 1.2rem);
