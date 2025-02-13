@@ -17,20 +17,23 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects" className="text-gray-400 bg-white body-font flex justify-center items-center min-h-screen">
+    <section 
+      id="projects" 
+      className={`text-gray-400 bg-white body-font flex justify-center items-center ${
+        isSmallScreen ? "h-screen" : "min-h-screen"
+      }`}
+    >
       <div className="flipbook-container">
         {isSmallScreen ? (
-          // Button for smaller screens
-          <div className="w-full flex flex-col items-center">
-            <a
-              href="/portfolio.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#CBB28E] text-white text-lg font-medium px-6 py-3 rounded-lg shadow-md transition duration-300 hover:bg-opacity-80"
-            >
-              Open Portfolio PDF
-            </a>
-          </div>
+          // Button for smaller screens (no extra space)
+          <a
+            href="/portfolio.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#CBB28E] text-white text-lg font-medium px-6 py-3 rounded-lg shadow-md transition duration-300 hover:bg-opacity-80"
+          >
+            Open Projects PDF
+          </a>
         ) : (
           // Flipbook for larger screens
           <HTMLFlipBook
