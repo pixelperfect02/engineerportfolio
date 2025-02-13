@@ -7,7 +7,7 @@ const Projects = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth < 768);
+      setIsSmallScreen(window.matchMedia("(max-width: 767px)").matches);
     };
 
     handleResize(); // Check on initial load
@@ -20,16 +20,19 @@ const Projects = () => {
     <section id="projects" className="text-gray-400 bg-white body-font flex justify-center items-center min-h-screen">
       <div className="flipbook-container">
         {isSmallScreen ? (
-          // Display Portfolio PDF on smaller screens
-          <iframe 
-            src="/portfolio.pdf" 
-            width="100%" 
-            height="600px" 
-            className="border-none"
-            title="Portfolio PDF"
-          ></iframe>
+          // Display PDF for smaller screens
+          <div className="w-full flex flex-col items-center">
+            
+            <iframe
+              src="/portfolio.pdf"
+              width="90%"
+              height="600px"
+              className="border rounded-lg"
+              title="Portfolio PDF"
+            ></iframe>
+          </div>
         ) : (
-          // Flipbook on larger screens
+          // Flipbook for larger screens
           <HTMLFlipBook
             width={900}
             height={600}
