@@ -22,7 +22,7 @@ const Projects = () => {
         {isSmallScreen ? (
           // Display PDF for smaller screens
           <div className="w-full flex flex-col items-center">
-            
+            <p className="text-lg text-center text-black mb-4">View Portfolio PDF</p>
             <iframe
               src="/portfolio.pdf"
               width="90%"
@@ -30,6 +30,14 @@ const Projects = () => {
               className="border rounded-lg"
               title="Portfolio PDF"
             ></iframe>
+            <a
+              href="/portfolio.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 text-blue-600 underline"
+            >
+              Open PDF in a new tab
+            </a>
           </div>
         ) : (
           // Flipbook for larger screens
