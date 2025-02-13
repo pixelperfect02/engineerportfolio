@@ -20,7 +20,7 @@ const Projects = () => {
     <section 
       id="projects" 
       className={`text-gray-400 bg-white body-font flex justify-center items-center ${
-        isSmallScreen ? "h-screen" : "min-h-screen"
+        isSmallScreen ? "h-auto p-0" : "min-h-screen"
       }`}
     >
       <div className="flipbook-container">
