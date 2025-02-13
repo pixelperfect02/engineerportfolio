@@ -20,23 +20,15 @@ const Projects = () => {
     <section id="projects" className="text-gray-400 bg-white body-font flex justify-center items-center min-h-screen">
       <div className="flipbook-container">
         {isSmallScreen ? (
-          // Display PDF for smaller screens
+          // Button for smaller screens
           <div className="w-full flex flex-col items-center">
-            <p className="text-lg text-center text-black mb-4">View Portfolio PDF</p>
-            <iframe
-              src="/portfolio.pdf"
-              width="90%"
-              height="600px"
-              className="border rounded-lg"
-              title="Portfolio PDF"
-            ></iframe>
             <a
               href="/portfolio.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 text-blue-600 underline"
+              className="bg-[#CBB28E] text-white text-lg font-medium px-6 py-3 rounded-lg shadow-md transition duration-300 hover:bg-opacity-80"
             >
-              Open PDF in a new tab
+              Open Portfolio PDF
             </a>
           </div>
         ) : (
