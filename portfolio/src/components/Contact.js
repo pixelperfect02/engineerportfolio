@@ -6,11 +6,16 @@ function ContactForm() {
 
   return (
 
+    
     <section id="contact">
+     
     <div>
+       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#706F6F] mb-6 text-center">
+      Contact Me
+      </h2>
       <form onSubmit={handleSubmit}>
         {state.succeeded && <p>Message Sent!</p>}
-        
+         
         <label htmlFor="email">
           Email Address
         </label>
